@@ -10,6 +10,7 @@
     "start": "node dist/server.js",
     "migrate:latest": "tsx src/database/migrator.ts latest",
     "migrate:down": "tsx src/database/migrator.ts down",
+    "demo": "tsx src/scripts/seed-and-demo.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
